@@ -1,13 +1,13 @@
 {
   "name": "avg-cweight-paginator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Calculates 'average cubic weight' for a paginated API of items",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "lint": "prettier index.js --fix"
   },
-  "author": "",
+  "author": "Anton Sidorov",
   "dependencies": {
     "axios": "^0.19.2",
     "axios-observable": "^1.1.3",
