@@ -8,6 +8,8 @@
     "lint": "prettier index.js --fix"
   },
   "author": "Anton Sidorov",
+  "repository": "https://github.com/AntonSidorov/avg-cweight-paginator/",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "axios-observable": "^1.1.3",
