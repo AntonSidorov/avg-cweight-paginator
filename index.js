@@ -30,6 +30,7 @@ async function main() {
   }
   const average = sum / counter;
   console.log(`Average weight: ${average}`);
+  return average;
 }
 
 // For runs from the console
