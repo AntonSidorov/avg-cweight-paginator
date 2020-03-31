@@ -35,5 +35,5 @@ async function main() {
 // For runs from the console
 main();
 
-app.get('/', async (_, res) => res.send(await main()));
+app.get('/', async (_, res) => res.send({ response: await main() }));
 app.listen(port, () => console.log(`listening on ${port}`));
